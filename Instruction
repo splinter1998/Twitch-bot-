@@ -1,0 +1,24 @@
+In This Tutorial will u allow to delete a spam on the message Bot from twitch . 
+
+So . In this chapitre we gonna discover how to add a bot on Twitch :
+
+
+. What is a Twitch Bot  :
+
+- Twitch bots make simple tasks easier. They can perform basic moderation such as: Timing out users automatically if they use offensive words in chat
+
+. What is Twitch OAuth :
+
+- Twitch Chat OAuth Password Generator. As of Sept. 17, 2013, Twitch now requires that you log into IRC using an OAuth token instead of your plaintext password or hash for additional security. Use this tool to generate an OAuth token to authenticate with Twitch IRC.
+
+
+What is a Twitch Token :
+This is a guide to help developers use Twitch Authentication, which enables your application to take actions on behalf of a Twitch account or access certain data about a user’s account. There are multiple ways for you to obtain access to a Twitch account on behalf of a user. We use parts of the OAuth 2.0 protocol.
+
+Validating Requests : 
+
+Validation is important because of how OAuth access tokens work and the end user’s expectation of OAuth session control. For example, users who opt to disconnect your integration from their Twitch accounts can do so from their account settings on Twitch. When a user disconnects from an integration, all OAuth tokens between that user and that integration are invalidated. In this scenario, the expectation is that OAuth tokens are tied to sessions on third-party services; as such, any existing sessions between the disconnected user and those services also should be invalidated.
+
+When validating each of your requests, submit a request to the validation endpoint (https://id.twitch.tv/oauth2/validate), with your OAuth token in the header. If you are authenticated, the response includes the status of your token. A successful response indicates that your access token is valid.
+
+
